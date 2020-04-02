@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Simple Credit Card Reader</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container topPanel">
+			<h1>Simple Credit Card Reader</h1>
+            <h4>by Kevin Kiely</h4>
+            <p>Enter a credit card number of 8/9 digits, and the result will hide all but last 4 digits</p>
+            <input type ="number" id="inputNum" placeholder="Enter 8 digits (or more)" required>
+			<button type="button" class="btn btn-outline-success" id="checkNum">Submit</button><br/>
+            <div id = "errorMsg"></div>
+            <div id="resPanel"><h2>Result: <span id = "result"></span></h2></div>
+
+    </body>
+    <script src="app.js"></script>
+</html>

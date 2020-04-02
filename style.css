@@ -1,0 +1,15 @@
+.topPanel {
+	background-color: white;
+	color: green;
+	min-height: 250px;
+	border-bottom: 5px red solid;
+}
+
+#errorMsg {
+	background-color: red;
+	padding: 5px;
+	color: #fff;
+	width: 50%;
+	display: none;
+}
+
